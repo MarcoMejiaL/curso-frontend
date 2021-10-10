@@ -1,4 +1,11 @@
+@import url(./pass.css);
 @import url(./login.css);
+@import url(./email.css);
+@import url(./cuenta.css);
+@import url(./edit.css);
+@import url(./inici.css);
+@import url(./menu.css);
+
 :root{
     --white: #FFFFFF;
     --black: #000000;
@@ -8,7 +15,7 @@
     --hospital-green: #ACD9B2;
     --sm: 14px;
     --md: 16px;
-    --lg: 19px
+    --lg: 18px
 
 }
 html{
