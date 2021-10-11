@@ -5,6 +5,9 @@
 @import url(./edit.css);
 @import url(./inici.css);
 @import url(./menu.css);
+@import url(./order.css);
+@import url(./myOrder.css);
+@import url(./navbar.css);
 
 :root{
     --white: #FFFFFF;
@@ -17,6 +20,9 @@
     --md: 16px;
     --lg: 18px
 
+}
+*{
+    box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
