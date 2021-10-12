@@ -8,6 +8,8 @@
 @import url(./order.css);
 @import url(./myOrder.css);
 @import url(./navbar.css);
+@import url(./producto.css);
+@import url(./shoppingcard.css);
 
 :root{
     --white: #FFFFFF;
