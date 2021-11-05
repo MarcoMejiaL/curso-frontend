@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .contenedor{
+        border: 1px solid black;
+        background-color: white;
+        display: grid;
+        grid-template-columns:  150px 150px 150px;
+        grid-template-rows: 75px 75px 75px;
+     place-content: center;
+     grid-template-areas: 
+     "header header header"
+     "side main main"
+     "side main main"
+     ;
+    }
+    .item{
+        font-size: 4rem;
+    }
+    .item1{
+        border: 1px solid orange;
+        background-color: pink;
+     /*    grid-column-start: 1;
+        grid-column-end: 4 ; */
+        grid-area: header;
+    }
+    .item2{
+        border: 1px solid rebeccapurple;
+        background-color: whitesmoke;
+        /* grid-row:2 / 4; */
+        grid-area: side;
+        
+       
+    }
+    .item3{
+        border: 1px solid green;
+        background-color: salmon;
+        /* grid-area: 2/2 / 4/4; */
+        grid-area: main;
+    }
+    
+
+
+
+</style>
+<body>
+    <div class="contenedor">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+    </div>
+    
+</body>
+</html>
