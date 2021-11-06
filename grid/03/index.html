@@ -45,8 +45,50 @@
         grid-area: main;
     }
     
+    .containerPractica{
+        width: 100%;
+        border: 1px solid orange;
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        place-content: center;
+        grid-template-areas: 
+        "uno dos dos"
+        "tres tres cuatro"
+        "cinco seis siete";
 
-
+    }
+    .items{
+        border: 1px solid salmon;
+    }
+    .item4{
+        grid-area: uno ;
+        background-color: aqua;
+    }
+    .item5{
+        grid-area: dos;
+        background-color: tomato;
+    }
+    .item6{
+        grid-area: tres;
+        background-color: green;
+    }
+    .item7{
+        grid-area: cuatro;
+        background-color: greenyellow;
+    }
+    .item8{
+        grid-area: cinco;
+        background-color: grey;
+    }
+    .item9{
+        grid-area: seis;
+        background-color: azure;
+    }
+    .item10{
+        grid-area: siete;
+        background-color: antiquewhite;
+    }
 
 </style>
 <body>
@@ -55,6 +97,17 @@
         <div class="item item2">2</div>
         <div class="item item3">3</div>
     </div>
+    <div class="containerPractica">
+        <div class="items item4">4</div>
+        <div class="items item5">5</div>
+        <div class="items item6">6</div>
+        <div class="items item7">7</div>
+        <div class="items item8">8</div>
+        <div class="items item9">9</div>
+        <div class="items item10">10</div>
+    </div>
+
+    
     
 </body>
 </html>
