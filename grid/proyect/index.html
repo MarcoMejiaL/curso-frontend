@@ -63,13 +63,28 @@
  .dishes{
      margin: 100px 0;
  }
- .dishes h2{
+ .tittles{
      text-align: center;
      color: #333;
      font-size: 3rem;
      font-weight: bold;
      margin-bottom: 24px;
  }
+
+ .menu__grid{
+     display: grid;
+     gap: 25px;
+     grid-template-columns: repeat(5,minmax(100px 250px));
+     justify-content:center ;
+ }
+
+ 
+
+.menu_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 </style>
 <body>
     <main>
@@ -83,7 +98,7 @@
             <img class="hero__image" src="./images/hero.png" alt="Plato de Pasta">
         </section>
         <section class="dishes">
-            <h2>Dishes Tittle</h2>
+            <h2 class="tittles">Dishes Tittle</h2>
             <div class="dishes-grid">
                 <img class="dishes__item dishes__item--big" src="./images/video.png" alt="">
                 <img class="dishes__item" src="./images/dish1.png" alt="">
@@ -94,6 +109,27 @@
             </div>
                         
 
+        </section>
+
+        <section class="menu">
+            <h2 class="tittles">Home Menu</h2>
+            <div class="menu__grid">
+                <div class="menu__item">
+                    <img src="./images/plate1.png" alt="">
+                </div>
+                <div class="menu__item" >
+                    <img   src="./images/plate2.png" alt="">
+                </div>
+                <div class="menu__item">
+                    <img  src="./images/plate3.png" alt="">
+                </div>
+                <div class="menu__item">
+                    <img  src="./images/plate4.png" alt="">
+                </div>
+                <div class="menu__item">
+                    <img  src="./images/plate5.png" alt="">
+                </div>
+            </div>
         </section>
 
     </main>
